@@ -85,6 +85,14 @@ object; or
 • Storing a reference to it into a field that is properly guarded by a
 lock.
 
+Types of blocking queue for : ->
+    UnBounded  --> Default for newFixedThreadPool
+    Bounded   --> Should be used for better resource management
+    SynchronusHandoff --> Used by newCachedThreadPool .. Tasks can be rejected
+
+
+
+
 
 
 
